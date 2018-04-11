@@ -23,7 +23,4 @@
         Me.Close()
     End Sub
 
-    Private Sub LabelProductName_Click(sender As Object, e As EventArgs) Handles LabelProductName.Click
-
-    End Sub
 End Class

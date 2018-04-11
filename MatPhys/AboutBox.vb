@@ -1,4 +1,4 @@
-﻿Public NotInheritable Class AboutBox1
+﻿Public NotInheritable Class AboutBox
 
     Private Sub AboutBox1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         ' Set the title of the form.
@@ -23,7 +23,4 @@
         Me.Close()
     End Sub
 
-    Private Sub LabelProductName_Click(sender As Object, e As EventArgs) Handles LabelProductName.Click
-
-    End Sub
 End Class
