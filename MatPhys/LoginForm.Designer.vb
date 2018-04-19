@@ -19,7 +19,7 @@ Partial Class LoginForm
     Friend WithEvents PasswordLabel As System.Windows.Forms.Label
     Friend WithEvents UsernameTextBox As System.Windows.Forms.TextBox
     Friend WithEvents PasswordTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents OK As System.Windows.Forms.Button
+    Friend WithEvents login_btn As System.Windows.Forms.Button
     Friend WithEvents Cancel As System.Windows.Forms.Button
 
     'Required by the Windows Form Designer
@@ -31,13 +31,14 @@ Partial Class LoginForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LoginForm))
-        Me.LogoPictureBox = New System.Windows.Forms.PictureBox
-        Me.UsernameLabel = New System.Windows.Forms.Label
-        Me.PasswordLabel = New System.Windows.Forms.Label
-        Me.UsernameTextBox = New System.Windows.Forms.TextBox
-        Me.PasswordTextBox = New System.Windows.Forms.TextBox
-        Me.OK = New System.Windows.Forms.Button
-        Me.Cancel = New System.Windows.Forms.Button
+        Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
+        Me.UsernameLabel = New System.Windows.Forms.Label()
+        Me.PasswordLabel = New System.Windows.Forms.Label()
+        Me.UsernameTextBox = New System.Windows.Forms.TextBox()
+        Me.PasswordTextBox = New System.Windows.Forms.TextBox()
+        Me.login_btn = New System.Windows.Forms.Button()
+        Me.Cancel = New System.Windows.Forms.Button()
+        Me.signup_btn = New System.Windows.Forms.Button()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -83,13 +84,13 @@ Partial Class LoginForm
         Me.PasswordTextBox.Size = New System.Drawing.Size(220, 20)
         Me.PasswordTextBox.TabIndex = 3
         '
-        'OK
+        'login_btn
         '
-        Me.OK.Location = New System.Drawing.Point(197, 161)
-        Me.OK.Name = "OK"
-        Me.OK.Size = New System.Drawing.Size(94, 23)
-        Me.OK.TabIndex = 4
-        Me.OK.Text = "&OK"
+        Me.login_btn.Location = New System.Drawing.Point(175, 132)
+        Me.login_btn.Name = "login_btn"
+        Me.login_btn.Size = New System.Drawing.Size(219, 23)
+        Me.login_btn.TabIndex = 4
+        Me.login_btn.Text = "Login"
         '
         'Cancel
         '
@@ -100,15 +101,25 @@ Partial Class LoginForm
         Me.Cancel.TabIndex = 5
         Me.Cancel.Text = "&Cancel"
         '
-        'LoginForm1
+        'signup_btn
         '
-        Me.AcceptButton = Me.OK
+        Me.signup_btn.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.signup_btn.Location = New System.Drawing.Point(175, 161)
+        Me.signup_btn.Name = "signup_btn"
+        Me.signup_btn.Size = New System.Drawing.Size(94, 23)
+        Me.signup_btn.TabIndex = 6
+        Me.signup_btn.Text = "Sign Up"
+        '
+        'LoginForm
+        '
+        Me.AcceptButton = Me.login_btn
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.Cancel
         Me.ClientSize = New System.Drawing.Size(401, 192)
+        Me.Controls.Add(Me.signup_btn)
         Me.Controls.Add(Me.Cancel)
-        Me.Controls.Add(Me.OK)
+        Me.Controls.Add(Me.login_btn)
         Me.Controls.Add(Me.PasswordTextBox)
         Me.Controls.Add(Me.UsernameTextBox)
         Me.Controls.Add(Me.PasswordLabel)
@@ -117,7 +128,7 @@ Partial Class LoginForm
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "LoginForm1"
+        Me.Name = "LoginForm"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Login"
@@ -127,4 +138,5 @@ Partial Class LoginForm
 
     End Sub
 
+    Friend WithEvents signup_btn As Button
 End Class

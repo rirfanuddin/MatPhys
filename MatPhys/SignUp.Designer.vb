@@ -23,36 +23,36 @@ Partial Class SignUp
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SignUp))
-        Me.OK = New System.Windows.Forms.Button()
-        Me.UsernameTextBox = New System.Windows.Forms.TextBox()
+        Me.signup_btn = New System.Windows.Forms.Button()
+        Me.nama_txtbox = New System.Windows.Forms.TextBox()
         Me.UsernameLabel = New System.Windows.Forms.Label()
         Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.email_txtbox = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.username_txtbox = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.password_txtbtn = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.sd_radio = New System.Windows.Forms.RadioButton()
+        Me.smp_radio = New System.Windows.Forms.RadioButton()
+        Me.sma_radio = New System.Windows.Forms.RadioButton()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'OK
+        'signup_btn
         '
-        Me.OK.Location = New System.Drawing.Point(231, 264)
-        Me.OK.Name = "OK"
-        Me.OK.Size = New System.Drawing.Size(94, 23)
-        Me.OK.TabIndex = 11
-        Me.OK.Text = "&Register"
+        Me.signup_btn.Location = New System.Drawing.Point(231, 264)
+        Me.signup_btn.Name = "signup_btn"
+        Me.signup_btn.Size = New System.Drawing.Size(94, 23)
+        Me.signup_btn.TabIndex = 11
+        Me.signup_btn.Text = "Sign Up"
         '
-        'UsernameTextBox
+        'nama_txtbox
         '
-        Me.UsernameTextBox.Location = New System.Drawing.Point(176, 38)
-        Me.UsernameTextBox.Name = "UsernameTextBox"
-        Me.UsernameTextBox.Size = New System.Drawing.Size(220, 20)
-        Me.UsernameTextBox.TabIndex = 8
+        Me.nama_txtbox.Location = New System.Drawing.Point(176, 38)
+        Me.nama_txtbox.Name = "nama_txtbox"
+        Me.nama_txtbox.Size = New System.Drawing.Size(220, 20)
+        Me.nama_txtbox.TabIndex = 8
         '
         'UsernameLabel
         '
@@ -72,12 +72,12 @@ Partial Class SignUp
         Me.LogoPictureBox.TabIndex = 7
         Me.LogoPictureBox.TabStop = False
         '
-        'TextBox1
+        'email_txtbox
         '
-        Me.TextBox1.Location = New System.Drawing.Point(176, 87)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(220, 20)
-        Me.TextBox1.TabIndex = 13
+        Me.email_txtbox.Location = New System.Drawing.Point(176, 87)
+        Me.email_txtbox.Name = "email_txtbox"
+        Me.email_txtbox.Size = New System.Drawing.Size(220, 20)
+        Me.email_txtbox.TabIndex = 13
         '
         'Label1
         '
@@ -88,12 +88,12 @@ Partial Class SignUp
         Me.Label1.Text = "Email"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'TextBox2
+        'username_txtbox
         '
-        Me.TextBox2.Location = New System.Drawing.Point(177, 136)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(220, 20)
-        Me.TextBox2.TabIndex = 15
+        Me.username_txtbox.Location = New System.Drawing.Point(177, 136)
+        Me.username_txtbox.Name = "username_txtbox"
+        Me.username_txtbox.Size = New System.Drawing.Size(220, 20)
+        Me.username_txtbox.TabIndex = 15
         '
         'Label2
         '
@@ -104,12 +104,12 @@ Partial Class SignUp
         Me.Label2.Text = "Username"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'TextBox3
+        'password_txtbtn
         '
-        Me.TextBox3.Location = New System.Drawing.Point(178, 185)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(220, 20)
-        Me.TextBox3.TabIndex = 17
+        Me.password_txtbtn.Location = New System.Drawing.Point(178, 185)
+        Me.password_txtbtn.Name = "password_txtbtn"
+        Me.password_txtbtn.Size = New System.Drawing.Size(220, 20)
+        Me.password_txtbtn.TabIndex = 17
         '
         'Label3
         '
@@ -120,55 +120,55 @@ Partial Class SignUp
         Me.Label3.Text = "Password"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'RadioButton1
+        'sd_radio
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(184, 227)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(40, 17)
-        Me.RadioButton1.TabIndex = 18
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "SD"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.sd_radio.AutoSize = True
+        Me.sd_radio.Location = New System.Drawing.Point(184, 227)
+        Me.sd_radio.Name = "sd_radio"
+        Me.sd_radio.Size = New System.Drawing.Size(40, 17)
+        Me.sd_radio.TabIndex = 18
+        Me.sd_radio.TabStop = True
+        Me.sd_radio.Text = "SD"
+        Me.sd_radio.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'smp_radio
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(257, 227)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(48, 17)
-        Me.RadioButton2.TabIndex = 19
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "SMP"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.smp_radio.AutoSize = True
+        Me.smp_radio.Location = New System.Drawing.Point(257, 227)
+        Me.smp_radio.Name = "smp_radio"
+        Me.smp_radio.Size = New System.Drawing.Size(48, 17)
+        Me.smp_radio.TabIndex = 19
+        Me.smp_radio.TabStop = True
+        Me.smp_radio.Text = "SMP"
+        Me.smp_radio.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'sma_radio
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(338, 227)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(48, 17)
-        Me.RadioButton3.TabIndex = 20
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "SMA"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.sma_radio.AutoSize = True
+        Me.sma_radio.Location = New System.Drawing.Point(338, 227)
+        Me.sma_radio.Name = "sma_radio"
+        Me.sma_radio.Size = New System.Drawing.Size(48, 17)
+        Me.sma_radio.TabIndex = 20
+        Me.sma_radio.TabStop = True
+        Me.sma_radio.Text = "SMA"
+        Me.sma_radio.UseVisualStyleBackColor = True
         '
         'SignUp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(417, 299)
-        Me.Controls.Add(Me.RadioButton3)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.sma_radio)
+        Me.Controls.Add(Me.smp_radio)
+        Me.Controls.Add(Me.sd_radio)
+        Me.Controls.Add(Me.password_txtbtn)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.username_txtbox)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.email_txtbox)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.OK)
-        Me.Controls.Add(Me.UsernameTextBox)
+        Me.Controls.Add(Me.signup_btn)
+        Me.Controls.Add(Me.nama_txtbox)
         Me.Controls.Add(Me.UsernameLabel)
         Me.Controls.Add(Me.LogoPictureBox)
         Me.Name = "SignUp"
@@ -178,17 +178,17 @@ Partial Class SignUp
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents OK As Button
-    Friend WithEvents UsernameTextBox As TextBox
+    Friend WithEvents signup_btn As Button
+    Friend WithEvents nama_txtbox As TextBox
     Friend WithEvents UsernameLabel As Label
     Friend WithEvents LogoPictureBox As PictureBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents email_txtbox As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents username_txtbox As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents password_txtbtn As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
+    Friend WithEvents sd_radio As RadioButton
+    Friend WithEvents smp_radio As RadioButton
+    Friend WithEvents sma_radio As RadioButton
 End Class
