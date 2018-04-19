@@ -26,37 +26,42 @@ Partial Class Main
         Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node7")
         Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node8")
         Dim TreeNode4 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode1, TreeNode2, TreeNode3})
-        Dim TreeNode5 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node2")
-        Dim TreeNode6 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node3")
-        Dim TreeNode7 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node9")
-        Dim TreeNode8 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode5, TreeNode6, TreeNode7})
-        Dim TreeNode9 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SD", New System.Windows.Forms.TreeNode() {TreeNode4, TreeNode8})
-        Dim TreeNode10 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node7")
-        Dim TreeNode11 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node8")
-        Dim TreeNode12 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node9")
-        Dim TreeNode13 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode10, TreeNode11, TreeNode12})
-        Dim TreeNode14 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node10")
-        Dim TreeNode15 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node11")
-        Dim TreeNode16 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node12")
-        Dim TreeNode17 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode14, TreeNode15, TreeNode16})
-        Dim TreeNode18 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMP", New System.Windows.Forms.TreeNode() {TreeNode13, TreeNode17})
-        Dim TreeNode19 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node13")
-        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node14")
-        Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node15")
-        Dim TreeNode22 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode19, TreeNode20, TreeNode21})
-        Dim TreeNode23 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node16")
-        Dim TreeNode24 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node17")
-        Dim TreeNode25 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node18")
-        Dim TreeNode26 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode23, TreeNode24, TreeNode25})
-        Dim TreeNode27 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMA", New System.Windows.Forms.TreeNode() {TreeNode22, TreeNode26})
+        Dim TreeNode5 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kubus")
+        Dim TreeNode6 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Balok")
+        Dim TreeNode7 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Prisma")
+        Dim TreeNode8 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Limas")
+        Dim TreeNode9 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tabung")
+        Dim TreeNode10 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bola")
+        Dim TreeNode11 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bangun Ruang", New System.Windows.Forms.TreeNode() {TreeNode5, TreeNode6, TreeNode7, TreeNode8, TreeNode9, TreeNode10})
+        Dim TreeNode12 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Panjang")
+        Dim TreeNode13 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Luas")
+        Dim TreeNode14 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Berat")
+        Dim TreeNode15 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Volume")
+        Dim TreeNode16 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Satuan Ukuran", New System.Windows.Forms.TreeNode() {TreeNode12, TreeNode13, TreeNode14, TreeNode15})
+        Dim TreeNode17 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node9")
+        Dim TreeNode18 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode11, TreeNode16, TreeNode17})
+        Dim TreeNode19 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SD", New System.Windows.Forms.TreeNode() {TreeNode4, TreeNode18})
+        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node7")
+        Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node8")
+        Dim TreeNode22 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node9")
+        Dim TreeNode23 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode20, TreeNode21, TreeNode22})
+        Dim TreeNode24 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node10")
+        Dim TreeNode25 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node11")
+        Dim TreeNode26 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node12")
+        Dim TreeNode27 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode24, TreeNode25, TreeNode26})
+        Dim TreeNode28 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMP", New System.Windows.Forms.TreeNode() {TreeNode23, TreeNode27})
+        Dim TreeNode29 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node13")
+        Dim TreeNode30 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node14")
+        Dim TreeNode31 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node15")
+        Dim TreeNode32 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode29, TreeNode30, TreeNode31})
+        Dim TreeNode33 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node16")
+        Dim TreeNode34 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node17")
+        Dim TreeNode35 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node18")
+        Dim TreeNode36 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode33, TreeNode34, TreeNode35})
+        Dim TreeNode37 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMA", New System.Windows.Forms.TreeNode() {TreeNode32, TreeNode36})
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ViewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AccountToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LogOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TreeView1 = New System.Windows.Forms.TreeView()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -66,55 +71,25 @@ Partial Class Main
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.ViewToolStripMenuItem, Me.AccountToolStripMenuItem, Me.AboutToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccountToolStripMenuItem, Me.AboutToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(769, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'FileToolStripMenuItem
-        '
-        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem, Me.Test2ToolStripMenuItem, Me.Test3ToolStripMenuItem})
-        Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
-        Me.FileToolStripMenuItem.Text = "File"
-        '
-        'Test1ToolStripMenuItem
-        '
-        Me.Test1ToolStripMenuItem.Name = "Test1ToolStripMenuItem"
-        Me.Test1ToolStripMenuItem.Size = New System.Drawing.Size(99, 22)
-        Me.Test1ToolStripMenuItem.Text = "test1"
-        '
-        'Test2ToolStripMenuItem
-        '
-        Me.Test2ToolStripMenuItem.Name = "Test2ToolStripMenuItem"
-        Me.Test2ToolStripMenuItem.Size = New System.Drawing.Size(99, 22)
-        Me.Test2ToolStripMenuItem.Text = "test2"
-        '
-        'Test3ToolStripMenuItem
-        '
-        Me.Test3ToolStripMenuItem.Name = "Test3ToolStripMenuItem"
-        Me.Test3ToolStripMenuItem.Size = New System.Drawing.Size(99, 22)
-        Me.Test3ToolStripMenuItem.Text = "test3"
-        '
-        'EditToolStripMenuItem
-        '
-        Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
-        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
-        Me.EditToolStripMenuItem.Text = "Edit"
-        '
-        'ViewToolStripMenuItem
-        '
-        Me.ViewToolStripMenuItem.Name = "ViewToolStripMenuItem"
-        Me.ViewToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.ViewToolStripMenuItem.Text = "View"
-        '
         'AccountToolStripMenuItem
         '
+        Me.AccountToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LogOutToolStripMenuItem})
         Me.AccountToolStripMenuItem.Name = "AccountToolStripMenuItem"
         Me.AccountToolStripMenuItem.Size = New System.Drawing.Size(64, 20)
         Me.AccountToolStripMenuItem.Text = "Account"
+        '
+        'LogOutToolStripMenuItem
+        '
+        Me.LogOutToolStripMenuItem.Name = "LogOutToolStripMenuItem"
+        Me.LogOutToolStripMenuItem.Size = New System.Drawing.Size(117, 22)
+        Me.LogOutToolStripMenuItem.Text = "Log Out"
         '
         'AboutToolStripMenuItem
         '
@@ -134,53 +109,73 @@ Partial Class Main
         TreeNode3.Text = "Node8"
         TreeNode4.Name = "phys_sd"
         TreeNode4.Text = "Fisika"
-        TreeNode5.Name = "Node2"
-        TreeNode5.Text = "Node2"
-        TreeNode6.Name = "Node3"
-        TreeNode6.Text = "Node3"
-        TreeNode7.Name = "Node9"
-        TreeNode7.Text = "Node9"
-        TreeNode8.Name = "math_sd"
-        TreeNode8.Text = "Matematika"
-        TreeNode9.Name = "sd"
-        TreeNode9.Text = "SD"
-        TreeNode10.Name = "Node7"
-        TreeNode10.Text = "Node7"
-        TreeNode11.Name = "Node8"
-        TreeNode11.Text = "Node8"
-        TreeNode12.Name = "Node9"
-        TreeNode12.Text = "Node9"
-        TreeNode13.Name = "phys_smp"
-        TreeNode13.Text = "Fisika"
-        TreeNode14.Name = "Node10"
-        TreeNode14.Text = "Node10"
-        TreeNode15.Name = "Node11"
-        TreeNode15.Text = "Node11"
-        TreeNode16.Name = "Node12"
-        TreeNode16.Text = "Node12"
-        TreeNode17.Name = "math_smp"
-        TreeNode17.Text = "Matematika"
-        TreeNode18.Name = "smp"
-        TreeNode18.Text = "SMP"
-        TreeNode19.Name = "Node13"
-        TreeNode19.Text = "Node13"
-        TreeNode20.Name = "Node14"
-        TreeNode20.Text = "Node14"
-        TreeNode21.Name = "Node15"
-        TreeNode21.Text = "Node15"
-        TreeNode22.Name = "phys_sma"
-        TreeNode22.Text = "Fisika"
-        TreeNode23.Name = "Node16"
-        TreeNode23.Text = "Node16"
-        TreeNode24.Name = "Node17"
-        TreeNode24.Text = "Node17"
-        TreeNode25.Name = "Node18"
-        TreeNode25.Text = "Node18"
-        TreeNode26.Name = "phys_sma"
-        TreeNode26.Text = "Matematika"
-        TreeNode27.Name = "sma"
-        TreeNode27.Text = "SMA"
-        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode9, TreeNode18, TreeNode27})
+        TreeNode5.Name = "kubus"
+        TreeNode5.Text = "Kubus"
+        TreeNode6.Name = "balok"
+        TreeNode6.Text = "Balok"
+        TreeNode7.Name = "prisma"
+        TreeNode7.Text = "Prisma"
+        TreeNode8.Name = "limas"
+        TreeNode8.Text = "Limas"
+        TreeNode9.Name = "tabung"
+        TreeNode9.Text = "Tabung"
+        TreeNode10.Name = "bola"
+        TreeNode10.Text = "Bola"
+        TreeNode11.Name = "bangun_ruang"
+        TreeNode11.Text = "Bangun Ruang"
+        TreeNode12.Name = "Node6"
+        TreeNode12.Text = "Ukuran Panjang"
+        TreeNode13.Name = "Node7"
+        TreeNode13.Text = "Ukuran Luas"
+        TreeNode14.Name = "Node8"
+        TreeNode14.Text = "Ukuran Berat"
+        TreeNode15.Name = "Node9"
+        TreeNode15.Text = "Ukuran Volume"
+        TreeNode16.Name = "satuan_ukuran"
+        TreeNode16.Text = "Satuan Ukuran"
+        TreeNode17.Name = "Node9"
+        TreeNode17.Text = "Node9"
+        TreeNode18.Name = "math_sd"
+        TreeNode18.Text = "Matematika"
+        TreeNode19.Name = "sd"
+        TreeNode19.Text = "SD"
+        TreeNode20.Name = "Node7"
+        TreeNode20.Text = "Node7"
+        TreeNode21.Name = "Node8"
+        TreeNode21.Text = "Node8"
+        TreeNode22.Name = "Node9"
+        TreeNode22.Text = "Node9"
+        TreeNode23.Name = "phys_smp"
+        TreeNode23.Text = "Fisika"
+        TreeNode24.Name = "Node10"
+        TreeNode24.Text = "Node10"
+        TreeNode25.Name = "Node11"
+        TreeNode25.Text = "Node11"
+        TreeNode26.Name = "Node12"
+        TreeNode26.Text = "Node12"
+        TreeNode27.Name = "math_smp"
+        TreeNode27.Text = "Matematika"
+        TreeNode28.Name = "smp"
+        TreeNode28.Text = "SMP"
+        TreeNode29.Name = "Node13"
+        TreeNode29.Text = "Node13"
+        TreeNode30.Name = "Node14"
+        TreeNode30.Text = "Node14"
+        TreeNode31.Name = "Node15"
+        TreeNode31.Text = "Node15"
+        TreeNode32.Name = "phys_sma"
+        TreeNode32.Text = "Fisika"
+        TreeNode33.Name = "Node16"
+        TreeNode33.Text = "Node16"
+        TreeNode34.Name = "Node17"
+        TreeNode34.Text = "Node17"
+        TreeNode35.Name = "Node18"
+        TreeNode35.Text = "Node18"
+        TreeNode36.Name = "phys_sma"
+        TreeNode36.Text = "Matematika"
+        TreeNode37.Name = "sma"
+        TreeNode37.Text = "SMA"
+        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode19, TreeNode28, TreeNode37})
         Me.TreeView1.Size = New System.Drawing.Size(169, 349)
         Me.TreeView1.TabIndex = 1
         '
@@ -220,16 +215,10 @@ Partial Class Main
 
     End Sub
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
-    Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Test1ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Test2ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents Test3ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EditToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ViewToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AccountToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TreeView1 As System.Windows.Forms.TreeView
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
-
+    Friend WithEvents LogOutToolStripMenuItem As ToolStripMenuItem
 End Class
