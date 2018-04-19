@@ -134,7 +134,7 @@ Partial Class Main
         TreeNode16.Text = "Satuan Ukuran"
         TreeNode17.Name = "math_sd"
         TreeNode17.Text = "Matematika"
-        TreeNode18.Name = "sd"
+        TreeNode18.Name = "sd_root"
         TreeNode18.Text = "SD"
         TreeNode19.Name = "Node7"
         TreeNode19.Text = "Node7"
@@ -152,7 +152,7 @@ Partial Class Main
         TreeNode25.Text = "Node12"
         TreeNode26.Name = "math_smp"
         TreeNode26.Text = "Matematika"
-        TreeNode27.Name = "smp"
+        TreeNode27.Name = "smp_root"
         TreeNode27.Text = "SMP"
         TreeNode28.Name = "Node13"
         TreeNode28.Text = "Node13"
@@ -170,7 +170,7 @@ Partial Class Main
         TreeNode34.Text = "Node18"
         TreeNode35.Name = "phys_sma"
         TreeNode35.Text = "Matematika"
-        TreeNode36.Name = "sma"
+        TreeNode36.Name = "sma_root"
         TreeNode36.Text = "SMA"
         Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode18, TreeNode27, TreeNode36})
         Me.TreeView1.Size = New System.Drawing.Size(169, 349)
