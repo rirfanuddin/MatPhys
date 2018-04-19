@@ -7,8 +7,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{6D508B38-18CA-4278-B2C4-4FCFC3C08BAB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
-    <RootNamespace>WindowsApplication1</RootNamespace>
+    <StartupObject>MatPhys.My.MyApplication</StartupObject>
+    <RootNamespace>MatPhys</RootNamespace>
     <AssemblyName>MatPhys</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
