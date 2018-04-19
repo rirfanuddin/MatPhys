@@ -126,7 +126,8 @@ Partial Class AboutBox
         Me.TextBoxDescription.Size = New System.Drawing.Size(257, 123)
         Me.TextBoxDescription.TabIndex = 0
         Me.TextBoxDescription.TabStop = False
-        Me.TextBoxDescription.Text = resources.GetString("TextBoxDescription.Text")
+        Me.TextBoxDescription.Text = "Program pembantu penghitung soal Matematika dan Fisika. Dibuat untuk memenuhi tug" &
+    "as akhir Pemrograman Visual kelas AB"
         '
         'OKButton
         '
