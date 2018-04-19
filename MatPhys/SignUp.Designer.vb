@@ -172,7 +172,7 @@ Partial Class SignUp
         Me.Controls.Add(Me.UsernameLabel)
         Me.Controls.Add(Me.LogoPictureBox)
         Me.Name = "SignUp"
-        Me.Text = "Form2"
+        Me.Text = "Sign Up"
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

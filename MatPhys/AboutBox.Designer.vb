@@ -21,7 +21,6 @@ Partial Class AboutBox
     Friend WithEvents LabelCompanyName As System.Windows.Forms.Label
     Friend WithEvents TextBoxDescription As System.Windows.Forms.TextBox
     Friend WithEvents OKButton As System.Windows.Forms.Button
-    Friend WithEvents LabelCopyright As System.Windows.Forms.Label
 
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
@@ -32,14 +31,13 @@ Partial Class AboutBox
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AboutBox))
-        Me.TableLayoutPanel = New System.Windows.Forms.TableLayoutPanel
-        Me.LogoPictureBox = New System.Windows.Forms.PictureBox
-        Me.LabelProductName = New System.Windows.Forms.Label
-        Me.LabelVersion = New System.Windows.Forms.Label
-        Me.LabelCopyright = New System.Windows.Forms.Label
-        Me.LabelCompanyName = New System.Windows.Forms.Label
-        Me.TextBoxDescription = New System.Windows.Forms.TextBox
-        Me.OKButton = New System.Windows.Forms.Button
+        Me.TableLayoutPanel = New System.Windows.Forms.TableLayoutPanel()
+        Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
+        Me.LabelProductName = New System.Windows.Forms.Label()
+        Me.LabelVersion = New System.Windows.Forms.Label()
+        Me.LabelCompanyName = New System.Windows.Forms.Label()
+        Me.TextBoxDescription = New System.Windows.Forms.TextBox()
+        Me.OKButton = New System.Windows.Forms.Button()
         Me.TableLayoutPanel.SuspendLayout()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -52,7 +50,6 @@ Partial Class AboutBox
         Me.TableLayoutPanel.Controls.Add(Me.LogoPictureBox, 0, 0)
         Me.TableLayoutPanel.Controls.Add(Me.LabelProductName, 1, 0)
         Me.TableLayoutPanel.Controls.Add(Me.LabelVersion, 1, 1)
-        Me.TableLayoutPanel.Controls.Add(Me.LabelCopyright, 1, 2)
         Me.TableLayoutPanel.Controls.Add(Me.LabelCompanyName, 1, 3)
         Me.TableLayoutPanel.Controls.Add(Me.TextBoxDescription, 1, 4)
         Me.TableLayoutPanel.Controls.Add(Me.OKButton, 1, 5)
@@ -90,7 +87,7 @@ Partial Class AboutBox
         Me.LabelProductName.Name = "LabelProductName"
         Me.LabelProductName.Size = New System.Drawing.Size(257, 17)
         Me.LabelProductName.TabIndex = 0
-        Me.LabelProductName.Text = "Product Name"
+        Me.LabelProductName.Text = "MatPhys"
         Me.LabelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'LabelVersion
@@ -102,20 +99,8 @@ Partial Class AboutBox
         Me.LabelVersion.Name = "LabelVersion"
         Me.LabelVersion.Size = New System.Drawing.Size(257, 17)
         Me.LabelVersion.TabIndex = 0
-        Me.LabelVersion.Text = "Version"
+        Me.LabelVersion.Text = "Version 0.1a"
         Me.LabelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'LabelCopyright
-        '
-        Me.LabelCopyright.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LabelCopyright.Location = New System.Drawing.Point(136, 50)
-        Me.LabelCopyright.Margin = New System.Windows.Forms.Padding(6, 0, 3, 0)
-        Me.LabelCopyright.MaximumSize = New System.Drawing.Size(0, 17)
-        Me.LabelCopyright.Name = "LabelCopyright"
-        Me.LabelCopyright.Size = New System.Drawing.Size(257, 17)
-        Me.LabelCopyright.TabIndex = 0
-        Me.LabelCopyright.Text = "Copyright"
-        Me.LabelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'LabelCompanyName
         '
@@ -126,7 +111,7 @@ Partial Class AboutBox
         Me.LabelCompanyName.Name = "LabelCompanyName"
         Me.LabelCompanyName.Size = New System.Drawing.Size(257, 17)
         Me.LabelCompanyName.TabIndex = 0
-        Me.LabelCompanyName.Text = "Company Name"
+        Me.LabelCompanyName.Text = "Kelompok 3"
         Me.LabelCompanyName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'TextBoxDescription
