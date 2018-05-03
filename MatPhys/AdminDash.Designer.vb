@@ -24,7 +24,6 @@ Partial Class AdminDash
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.AccountToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.general_stats = New System.Windows.Forms.TabPage()
         Me.sd_stats = New System.Windows.Forms.TabPage()
@@ -42,6 +41,7 @@ Partial Class AdminDash
         Me.DataGridView4 = New System.Windows.Forms.DataGridView()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.LogOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.general_stats.SuspendLayout()
@@ -56,7 +56,7 @@ Partial Class AdminDash
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccountToolStripMenuItem, Me.HelpToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccountToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(456, 24)
@@ -65,15 +65,10 @@ Partial Class AdminDash
         '
         'AccountToolStripMenuItem
         '
+        Me.AccountToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LogOutToolStripMenuItem})
         Me.AccountToolStripMenuItem.Name = "AccountToolStripMenuItem"
         Me.AccountToolStripMenuItem.Size = New System.Drawing.Size(64, 20)
         Me.AccountToolStripMenuItem.Text = "Account"
-        '
-        'HelpToolStripMenuItem
-        '
-        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem.Text = "Help"
         '
         'TabControl1
         '
@@ -193,7 +188,7 @@ Partial Class AdminDash
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Location = New System.Drawing.Point(25, 62)
         Me.DataGridView3.Name = "DataGridView3"
-        Me.DataGridView3.Size = New System.Drawing.Size(375, 231)
+        Me.DataGridView3.Size = New System.Drawing.Size(371, 231)
         Me.DataGridView3.TabIndex = 6
         '
         'TextBox3
@@ -238,6 +233,12 @@ Partial Class AdminDash
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Siswa Terdaftar: "
         '
+        'LogOutToolStripMenuItem
+        '
+        Me.LogOutToolStripMenuItem.Name = "LogOutToolStripMenuItem"
+        Me.LogOutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LogOutToolStripMenuItem.Text = "Log Out"
+        '
         'AdminDash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -269,7 +270,6 @@ Partial Class AdminDash
     End Sub
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents AccountToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents HelpToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents sd_stats As TabPage
     Friend WithEvents smp_stats As TabPage
@@ -287,4 +287,5 @@ Partial Class AdminDash
     Friend WithEvents DataGridView4 As DataGridView
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents LogOutToolStripMenuItem As ToolStripMenuItem
 End Class
