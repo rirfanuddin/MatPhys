@@ -30,8 +30,10 @@ Partial Class AdminDash
         Me.smp_stats = New System.Windows.Forms.TabPage()
         Me.sma_stats = New System.Windows.Forms.TabPage()
         Me.general_stats = New System.Windows.Forms.TabPage()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
+        Me.sd_stats.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -70,6 +72,7 @@ Partial Class AdminDash
         '
         'sd_stats
         '
+        Me.sd_stats.Controls.Add(Me.Label1)
         Me.sd_stats.Location = New System.Drawing.Point(4, 22)
         Me.sd_stats.Name = "sd_stats"
         Me.sd_stats.Padding = New System.Windows.Forms.Padding(3)
@@ -106,6 +109,15 @@ Partial Class AdminDash
         Me.general_stats.Text = "Statistik Umum"
         Me.general_stats.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(21, 28)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(87, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Siswa Terdaftar: "
+        '
         'AdminDash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -119,6 +131,8 @@ Partial Class AdminDash
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
+        Me.sd_stats.ResumeLayout(False)
+        Me.sd_stats.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -131,4 +145,5 @@ Partial Class AdminDash
     Friend WithEvents smp_stats As TabPage
     Friend WithEvents sma_stats As TabPage
     Friend WithEvents general_stats As TabPage
+    Friend WithEvents Label1 As Label
 End Class
