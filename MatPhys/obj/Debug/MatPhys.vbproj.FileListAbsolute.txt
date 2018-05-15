@@ -1,0 +1,10 @@
+D:\komsi sv\KOMSI SV\SMT 4\ta visual\MatPhys\obj\Debug\MatPhys.vbprojAssemblyReference.cache
+D:\komsi sv\KOMSI SV\SMT 4\ta visual\MatPhys\obj\Debug\MatPhys.AboutBox.resources
+D:\komsi sv\KOMSI SV\SMT 4\ta visual\MatPhys\obj\Debug\MatPhys.AdminDash.resources
+D:\komsi sv\KOMSI SV\SMT 4\ta visual\MatPhys\obj\Debug\MatPhys.SignUp.resources
+D:\komsi sv\KOMSI SV\SMT 4\ta visual\MatPhys\obj\Debug\MatPhys.Main.resources
+D:\komsi sv\KOMSI SV\SMT 4\ta visual\MatPhys\obj\Debug\MatPhys.LoginForm.resources
+D:\komsi sv\KOMSI SV\SMT 4\ta visual\MatPhys\obj\Debug\MatPhys.Resources.resources
+D:\komsi sv\KOMSI SV\SMT 4\ta visual\MatPhys\obj\Debug\MatPhys.SplashScreen.resources
+D:\komsi sv\KOMSI SV\SMT 4\ta visual\MatPhys\obj\Debug\MatPhys.vbproj.GenerateResource.cache
+D:\komsi sv\KOMSI SV\SMT 4\ta visual\MatPhys\obj\Debug\MatPhys.vbproj.CoreCompileInputs.cache
