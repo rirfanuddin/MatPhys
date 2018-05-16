@@ -31,7 +31,7 @@ Partial Class SignUp
         Me.Label1 = New System.Windows.Forms.Label()
         Me.username_txtbox = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.password_txtbtn = New System.Windows.Forms.TextBox()
+        Me.password_txtbox = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.sd_radio = New System.Windows.Forms.RadioButton()
         Me.smp_radio = New System.Windows.Forms.RadioButton()
@@ -104,12 +104,12 @@ Partial Class SignUp
         Me.Label2.Text = "Username"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'password_txtbtn
+        'password_txtbox
         '
-        Me.password_txtbtn.Location = New System.Drawing.Point(178, 185)
-        Me.password_txtbtn.Name = "password_txtbtn"
-        Me.password_txtbtn.Size = New System.Drawing.Size(220, 20)
-        Me.password_txtbtn.TabIndex = 17
+        Me.password_txtbox.Location = New System.Drawing.Point(178, 185)
+        Me.password_txtbox.Name = "password_txtbox"
+        Me.password_txtbox.Size = New System.Drawing.Size(220, 20)
+        Me.password_txtbox.TabIndex = 17
         '
         'Label3
         '
@@ -161,7 +161,7 @@ Partial Class SignUp
         Me.Controls.Add(Me.sma_radio)
         Me.Controls.Add(Me.smp_radio)
         Me.Controls.Add(Me.sd_radio)
-        Me.Controls.Add(Me.password_txtbtn)
+        Me.Controls.Add(Me.password_txtbox)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.username_txtbox)
         Me.Controls.Add(Me.Label2)
@@ -186,7 +186,7 @@ Partial Class SignUp
     Friend WithEvents Label1 As Label
     Friend WithEvents username_txtbox As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents password_txtbtn As TextBox
+    Friend WithEvents password_txtbox As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents sd_radio As RadioButton
     Friend WithEvents smp_radio As RadioButton

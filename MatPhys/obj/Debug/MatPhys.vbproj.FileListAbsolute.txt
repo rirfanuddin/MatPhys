@@ -1,0 +1,17 @@
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.vbprojResolveAssemblyReference.cache
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.AboutBox.resources
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.AdminDash.resources
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.SignUp.resources
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.Main.resources
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.LoginForm.resources
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.Resources.resources
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.SplashScreen.resources
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.vbproj.GenerateResource.cache
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.vbproj.CoreCompileInputs.cache
+E:\Git\MatPhys\MatPhys\bin\Debug\MatPhys.exe
+E:\Git\MatPhys\MatPhys\bin\Debug\MatPhys.pdb
+E:\Git\MatPhys\MatPhys\bin\Debug\MatPhys.xml
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.exe
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.xml
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.pdb
+E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.vbproj.CopyComplete

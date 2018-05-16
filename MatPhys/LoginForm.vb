@@ -15,6 +15,8 @@
     Private Sub signup_btn_Click(sender As Object, e As EventArgs) Handles signup_btn.Click
         Dim signup = New SignUp
         signup.Show()
+        Me.Hide()
+
 
     End Sub
 End Class
