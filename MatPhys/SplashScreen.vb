@@ -12,7 +12,9 @@
 
         'Application title
         If My.Application.Info.Title <> "" Then
-            ApplicationTitle.Text = My.Application.Info.Title
+            'ApplicationTitle.Text = My.Application.Info.Title
+            ApplicationTitle.Text = "MatPhys"
+
         Else
             'If the application title is missing, use the application name, without the extension
             ApplicationTitle.Text = System.IO.Path.GetFileNameWithoutExtension(My.Application.Info.AssemblyName)
@@ -31,5 +33,4 @@
         'Copyright info
         Copyright.Text = My.Application.Info.Copyright
     End Sub
-
 End Class

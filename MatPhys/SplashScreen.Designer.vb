@@ -28,11 +28,11 @@ Partial Class SplashScreen
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SplashScreen))
-        Me.MainLayoutPanel = New System.Windows.Forms.TableLayoutPanel
-        Me.DetailsLayoutPanel = New System.Windows.Forms.TableLayoutPanel
-        Me.Version = New System.Windows.Forms.Label
-        Me.Copyright = New System.Windows.Forms.Label
-        Me.ApplicationTitle = New System.Windows.Forms.Label
+        Me.MainLayoutPanel = New System.Windows.Forms.TableLayoutPanel()
+        Me.DetailsLayoutPanel = New System.Windows.Forms.TableLayoutPanel()
+        Me.Version = New System.Windows.Forms.Label()
+        Me.Copyright = New System.Windows.Forms.Label()
+        Me.ApplicationTitle = New System.Windows.Forms.Label()
         Me.MainLayoutPanel.SuspendLayout()
         Me.DetailsLayoutPanel.SuspendLayout()
         Me.SuspendLayout()
