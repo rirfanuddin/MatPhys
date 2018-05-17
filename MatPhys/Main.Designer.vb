@@ -212,7 +212,7 @@ Partial Class Main
         Me.rumusSdBangunRuang.Controls.Add(Me.Label1)
         Me.rumusSdBangunRuang.Location = New System.Drawing.Point(13, 3)
         Me.rumusSdBangunRuang.Name = "rumusSdBangunRuang"
-        Me.rumusSdBangunRuang.Size = New System.Drawing.Size(570, 425)
+        Me.rumusSdBangunRuang.Size = New System.Drawing.Size(570, 585)
         Me.rumusSdBangunRuang.TabIndex = 3
         Me.rumusSdBangunRuang.TabStop = False
         Me.rumusSdBangunRuang.Text = "Rumus"
