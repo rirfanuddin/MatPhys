@@ -217,6 +217,7 @@ Partial Class Main
         Me.rumusSdKubus.TabStop = False
         Me.rumusSdKubus.Text = "Rumus"
         Me.rumusSdKubus.Visible = False
+
         '
         'TextBox3
         '
