@@ -63,7 +63,7 @@ Partial Class Main
         Me.LogOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TreeView1 = New System.Windows.Forms.TreeView()
-        Me.rumusSdBangunRuang = New System.Windows.Forms.GroupBox()
+        Me.rumusSdKubus = New System.Windows.Forms.GroupBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
@@ -80,7 +80,7 @@ Partial Class Main
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.MenuStrip1.SuspendLayout()
-        Me.rumusSdBangunRuang.SuspendLayout()
+        Me.rumusSdKubus.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -194,28 +194,29 @@ Partial Class Main
         Me.TreeView1.Size = New System.Drawing.Size(169, 349)
         Me.TreeView1.TabIndex = 1
         '
-        'rumusSdBangunRuang
+        'rumusSdKubus
         '
-        Me.rumusSdBangunRuang.Controls.Add(Me.TextBox3)
-        Me.rumusSdBangunRuang.Controls.Add(Me.Label7)
-        Me.rumusSdBangunRuang.Controls.Add(Me.TextBox4)
-        Me.rumusSdBangunRuang.Controls.Add(Me.Label8)
-        Me.rumusSdBangunRuang.Controls.Add(Me.PictureBox2)
-        Me.rumusSdBangunRuang.Controls.Add(Me.Label6)
-        Me.rumusSdBangunRuang.Controls.Add(Me.TextBox2)
-        Me.rumusSdBangunRuang.Controls.Add(Me.Label5)
-        Me.rumusSdBangunRuang.Controls.Add(Me.TextBox1)
-        Me.rumusSdBangunRuang.Controls.Add(Me.Label4)
-        Me.rumusSdBangunRuang.Controls.Add(Me.PictureBox1)
-        Me.rumusSdBangunRuang.Controls.Add(Me.Label3)
-        Me.rumusSdBangunRuang.Controls.Add(Me.Label2)
-        Me.rumusSdBangunRuang.Controls.Add(Me.Label1)
-        Me.rumusSdBangunRuang.Location = New System.Drawing.Point(13, 3)
-        Me.rumusSdBangunRuang.Name = "rumusSdBangunRuang"
-        Me.rumusSdBangunRuang.Size = New System.Drawing.Size(570, 425)
-        Me.rumusSdBangunRuang.TabIndex = 3
-        Me.rumusSdBangunRuang.TabStop = False
-        Me.rumusSdBangunRuang.Text = "Rumus"
+        Me.rumusSdKubus.Controls.Add(Me.TextBox3)
+        Me.rumusSdKubus.Controls.Add(Me.Label7)
+        Me.rumusSdKubus.Controls.Add(Me.TextBox4)
+        Me.rumusSdKubus.Controls.Add(Me.Label8)
+        Me.rumusSdKubus.Controls.Add(Me.PictureBox2)
+        Me.rumusSdKubus.Controls.Add(Me.Label6)
+        Me.rumusSdKubus.Controls.Add(Me.TextBox2)
+        Me.rumusSdKubus.Controls.Add(Me.Label5)
+        Me.rumusSdKubus.Controls.Add(Me.TextBox1)
+        Me.rumusSdKubus.Controls.Add(Me.Label4)
+        Me.rumusSdKubus.Controls.Add(Me.PictureBox1)
+        Me.rumusSdKubus.Controls.Add(Me.Label3)
+        Me.rumusSdKubus.Controls.Add(Me.Label2)
+        Me.rumusSdKubus.Controls.Add(Me.Label1)
+        Me.rumusSdKubus.Location = New System.Drawing.Point(13, 3)
+        Me.rumusSdKubus.Name = "rumusSdKubus"
+        Me.rumusSdKubus.Size = New System.Drawing.Size(570, 425)
+        Me.rumusSdKubus.TabIndex = 3
+        Me.rumusSdKubus.TabStop = False
+        Me.rumusSdKubus.Text = "Rumus"
+        Me.rumusSdKubus.Visible = False
         '
         'TextBox3
         '
@@ -340,7 +341,7 @@ Partial Class Main
         'Panel1
         '
         Me.Panel1.AutoScroll = True
-        Me.Panel1.Controls.Add(Me.rumusSdBangunRuang)
+        Me.Panel1.Controls.Add(Me.rumusSdKubus)
         Me.Panel1.Location = New System.Drawing.Point(187, 27)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(615, 349)
@@ -358,8 +359,8 @@ Partial Class Main
         Me.Text = "MatPhys"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        Me.rumusSdBangunRuang.ResumeLayout(False)
-        Me.rumusSdBangunRuang.PerformLayout()
+        Me.rumusSdKubus.ResumeLayout(False)
+        Me.rumusSdKubus.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
@@ -371,7 +372,7 @@ Partial Class Main
     Friend WithEvents AccountToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TreeView1 As System.Windows.Forms.TreeView
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents rumusSdBangunRuang As System.Windows.Forms.GroupBox
+    Friend WithEvents rumusSdKubus As System.Windows.Forms.GroupBox
     Friend WithEvents LogOutToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
