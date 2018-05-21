@@ -522,7 +522,7 @@ Partial Class Main
         'Panel1
         '
         Me.Panel1.AutoScroll = True
-        Me.Panel1.Controls.Add(Me.rumusSdBangunRuang)
+        Me.Panel1.Controls.Add(Me.rumusSdKubus)
         Me.Panel1.Location = New System.Drawing.Point(187, 27)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(615, 349)
@@ -554,7 +554,7 @@ Partial Class Main
     Friend WithEvents AccountToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TreeView1 As System.Windows.Forms.TreeView
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents rumusSdBangunRuang As System.Windows.Forms.GroupBox
+    Friend WithEvents rumusSdKubus As System.Windows.Forms.GroupBox
     Friend WithEvents LogOutToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
