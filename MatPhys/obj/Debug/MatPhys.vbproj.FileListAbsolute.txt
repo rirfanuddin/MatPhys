@@ -15,3 +15,21 @@ E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.exe
 E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.xml
 E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.pdb
 E:\Git\MatPhys\MatPhys\obj\Debug\MatPhys.vbproj.CopyComplete
+G:\Other\GitHub Repo\MatPhys\MatPhys\bin\Debug\MatPhys.exe
+G:\Other\GitHub Repo\MatPhys\MatPhys\bin\Debug\MatPhys.pdb
+G:\Other\GitHub Repo\MatPhys\MatPhys\bin\Debug\MatPhys.xml
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.vbprojResolveAssemblyReference.cache
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.AboutBox.resources
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.AdminDash.resources
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.SignUp.resources
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.Main.resources
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.LoginForm.resources
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.Resources.resources
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.SplashScreen.resources
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.UserDetails.resources
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.vbproj.GenerateResource.cache
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.vbproj.CoreCompileInputs.cache
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.vbproj.CopyComplete
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.exe
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.xml
+G:\Other\GitHub Repo\MatPhys\MatPhys\obj\Debug\MatPhys.pdb
