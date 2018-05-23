@@ -22,34 +22,31 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim TreeNode53 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bangun Ruang")
-        Dim TreeNode54 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Panjang")
-        Dim TreeNode55 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Luas")
-        Dim TreeNode56 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Berat")
-        Dim TreeNode57 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Volume")
-        Dim TreeNode58 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Satuan Ukuran", New System.Windows.Forms.TreeNode() {TreeNode54, TreeNode55, TreeNode56, TreeNode57})
-        Dim TreeNode59 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode53, TreeNode58})
-        Dim TreeNode60 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SD", New System.Windows.Forms.TreeNode() {TreeNode59})
-        Dim TreeNode61 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node7")
-        Dim TreeNode62 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node8")
-        Dim TreeNode63 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node9")
-        Dim TreeNode64 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode61, TreeNode62, TreeNode63})
-        Dim TreeNode65 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node10")
-        Dim TreeNode66 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node11")
-        Dim TreeNode67 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node12")
-        Dim TreeNode68 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode65, TreeNode66, TreeNode67})
-        Dim TreeNode69 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMP", New System.Windows.Forms.TreeNode() {TreeNode64, TreeNode68})
-        Dim TreeNode70 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node13")
-        Dim TreeNode71 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node14")
-        Dim TreeNode72 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node15")
-        Dim TreeNode73 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode70, TreeNode71, TreeNode72})
-        Dim TreeNode74 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node16")
-        Dim TreeNode75 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node17")
-        Dim TreeNode76 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node18")
-        Dim TreeNode77 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode74, TreeNode75, TreeNode76})
-        Dim TreeNode78 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMA", New System.Windows.Forms.TreeNode() {TreeNode73, TreeNode77})
+        Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bangun Ruang")
+        Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Panjang")
+        Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Luas")
+        Dim TreeNode4 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Berat")
+        Dim TreeNode5 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Volume")
+        Dim TreeNode6 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Satuan Ukuran", New System.Windows.Forms.TreeNode() {TreeNode2, TreeNode3, TreeNode4, TreeNode5})
+        Dim TreeNode7 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode1, TreeNode6})
+        Dim TreeNode8 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SD", New System.Windows.Forms.TreeNode() {TreeNode7})
+        Dim TreeNode9 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Besaran dan Pengukuran")
+        Dim TreeNode10 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Unsur Senyawa dan Campuran")
+        Dim TreeNode11 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode9, TreeNode10})
+        Dim TreeNode12 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bilangan Pecahan")
+        Dim TreeNode13 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Aljabar")
+        Dim TreeNode14 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode12, TreeNode13})
+        Dim TreeNode15 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMP", New System.Windows.Forms.TreeNode() {TreeNode11, TreeNode14})
+        Dim TreeNode16 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Gerak Lurus")
+        Dim TreeNode17 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Termodinamika")
+        Dim TreeNode18 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode16, TreeNode17})
+        Dim TreeNode19 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Sistem Persamaan Linier")
+        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Dimensi Tiga")
+        Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode19, TreeNode20})
+        Dim TreeNode22 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMA", New System.Windows.Forms.TreeNode() {TreeNode18, TreeNode21})
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.AccountToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UserDetailsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LogOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TreeView1 = New System.Windows.Forms.TreeView()
@@ -90,7 +87,6 @@ Partial Class Main
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.UserDetailsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.rumusSdKubus.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -115,10 +111,16 @@ Partial Class Main
         Me.AccountToolStripMenuItem.Size = New System.Drawing.Size(64, 20)
         Me.AccountToolStripMenuItem.Text = "Account"
         '
+        'UserDetailsToolStripMenuItem
+        '
+        Me.UserDetailsToolStripMenuItem.Name = "UserDetailsToolStripMenuItem"
+        Me.UserDetailsToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.UserDetailsToolStripMenuItem.Text = "User Details"
+        '
         'LogOutToolStripMenuItem
         '
         Me.LogOutToolStripMenuItem.Name = "LogOutToolStripMenuItem"
-        Me.LogOutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LogOutToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.LogOutToolStripMenuItem.Text = "Log Out"
         '
         'AboutToolStripMenuItem
@@ -131,59 +133,51 @@ Partial Class Main
         '
         Me.TreeView1.Location = New System.Drawing.Point(12, 27)
         Me.TreeView1.Name = "TreeView1"
-        TreeNode53.Name = "bangun_ruang"
-        TreeNode53.Text = "Bangun Ruang"
-        TreeNode54.Name = "ukuran_panjang"
-        TreeNode54.Text = "Ukuran Panjang"
-        TreeNode55.Name = "ukuran_luas"
-        TreeNode55.Text = "Ukuran Luas"
-        TreeNode56.Name = "ukuran_berat"
-        TreeNode56.Text = "Ukuran Berat"
-        TreeNode57.Name = "ukuran_volume"
-        TreeNode57.Text = "Ukuran Volume"
-        TreeNode58.Name = "satuan_ukuran"
-        TreeNode58.Text = "Satuan Ukuran"
-        TreeNode59.Name = "math_sd"
-        TreeNode59.Text = "Matematika"
-        TreeNode60.Name = "sd_root"
-        TreeNode60.Text = "SD"
-        TreeNode61.Name = "Node7"
-        TreeNode61.Text = "Node7"
-        TreeNode62.Name = "Node8"
-        TreeNode62.Text = "Node8"
-        TreeNode63.Name = "Node9"
-        TreeNode63.Text = "Node9"
-        TreeNode64.Name = "phys_smp"
-        TreeNode64.Text = "Fisika"
-        TreeNode65.Name = "Node10"
-        TreeNode65.Text = "Node10"
-        TreeNode66.Name = "Node11"
-        TreeNode66.Text = "Node11"
-        TreeNode67.Name = "Node12"
-        TreeNode67.Text = "Node12"
-        TreeNode68.Name = "math_smp"
-        TreeNode68.Text = "Matematika"
-        TreeNode69.Name = "smp_root"
-        TreeNode69.Text = "SMP"
-        TreeNode70.Name = "Node13"
-        TreeNode70.Text = "Node13"
-        TreeNode71.Name = "Node14"
-        TreeNode71.Text = "Node14"
-        TreeNode72.Name = "Node15"
-        TreeNode72.Text = "Node15"
-        TreeNode73.Name = "phys_sma"
-        TreeNode73.Text = "Fisika"
-        TreeNode74.Name = "Node16"
-        TreeNode74.Text = "Node16"
-        TreeNode75.Name = "Node17"
-        TreeNode75.Text = "Node17"
-        TreeNode76.Name = "Node18"
-        TreeNode76.Text = "Node18"
-        TreeNode77.Name = "phys_sma"
-        TreeNode77.Text = "Matematika"
-        TreeNode78.Name = "sma_root"
-        TreeNode78.Text = "SMA"
-        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode60, TreeNode69, TreeNode78})
+        TreeNode1.Name = "bangun_ruang"
+        TreeNode1.Text = "Bangun Ruang"
+        TreeNode2.Name = "ukuran_panjang"
+        TreeNode2.Text = "Ukuran Panjang"
+        TreeNode3.Name = "ukuran_luas"
+        TreeNode3.Text = "Ukuran Luas"
+        TreeNode4.Name = "ukuran_berat"
+        TreeNode4.Text = "Ukuran Berat"
+        TreeNode5.Name = "ukuran_volume"
+        TreeNode5.Text = "Ukuran Volume"
+        TreeNode6.Name = "satuan_ukuran"
+        TreeNode6.Text = "Satuan Ukuran"
+        TreeNode7.Name = "math_sd"
+        TreeNode7.Text = "Matematika"
+        TreeNode8.Name = "sd_root"
+        TreeNode8.Text = "SD"
+        TreeNode9.Name = "besaranSMP"
+        TreeNode9.Text = "Besaran dan Pengukuran"
+        TreeNode10.Name = "senyawaSMP"
+        TreeNode10.Text = "Unsur Senyawa dan Campuran"
+        TreeNode11.Name = "phys_smp"
+        TreeNode11.Text = "Fisika"
+        TreeNode12.Name = "pecahanSMP"
+        TreeNode12.Text = "Bilangan Pecahan"
+        TreeNode13.Name = "aljabarSMP"
+        TreeNode13.Text = "Aljabar"
+        TreeNode14.Name = "math_smp"
+        TreeNode14.Text = "Matematika"
+        TreeNode15.Name = "smp_root"
+        TreeNode15.Text = "SMP"
+        TreeNode16.Name = "glSMA"
+        TreeNode16.Text = "Gerak Lurus"
+        TreeNode17.Name = "termoSMA"
+        TreeNode17.Text = "Termodinamika"
+        TreeNode18.Name = "phys_sma"
+        TreeNode18.Text = "Fisika"
+        TreeNode19.Name = "splSMA"
+        TreeNode19.Text = "Sistem Persamaan Linier"
+        TreeNode20.Name = "3dSMA"
+        TreeNode20.Text = "Dimensi Tiga"
+        TreeNode21.Name = "phys_sma"
+        TreeNode21.Text = "Matematika"
+        TreeNode22.Name = "sma_root"
+        TreeNode22.Text = "SMA"
+        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode8, TreeNode15, TreeNode22})
         Me.TreeView1.Size = New System.Drawing.Size(169, 349)
         Me.TreeView1.TabIndex = 1
         '
@@ -528,12 +522,6 @@ Partial Class Main
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(615, 349)
         Me.Panel1.TabIndex = 4
-        '
-        'UserDetailsToolStripMenuItem
-        '
-        Me.UserDetailsToolStripMenuItem.Name = "UserDetailsToolStripMenuItem"
-        Me.UserDetailsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.UserDetailsToolStripMenuItem.Text = "User Details"
         '
         'Main
         '
