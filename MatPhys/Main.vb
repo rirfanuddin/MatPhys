@@ -10,4 +10,13 @@
 
         End If
     End Sub
+
+    Private Sub LogOutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LogOutToolStripMenuItem.Click
+        Me.Hide()
+        LoginForm.Show()
+    End Sub
+
+    Private Sub UserDetailsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UserDetailsToolStripMenuItem.Click
+        UserDetails.Show()
+    End Sub
 End Class

@@ -50,6 +50,18 @@ Public Class AdminDash
             da.Fill(dst, "users")
             dtg_sd.DataSource = dst.Tables(0)
 
+            Dim Reader As MySqlDataReader
+            MySqlConn.Open()
+            Dim Query As String
+            Query = "SELECT COUNT(id_user) FROM users WHERE role = 0 AND jenjang='SD'"
+
+            Perintah = New MySqlCommand(Query, MySqlConn)
+            Reader = Perintah.ExecuteReader
+            While Reader.Read()
+                txt_sd.Text = Reader("COUNT(id_user)").ToString
+            End While
+            MySqlConn.Close()
+
         ElseIf e.TabPageIndex = 2 Then
             dtg_smp.Enabled = True
             da = New MySqlDataAdapter("SELECT id_user, name, email, username, password, jenjang FROM users WHERE role=0 AND jenjang='SMP'", MySqlConn)

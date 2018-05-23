@@ -47,11 +47,11 @@ Public Class LoginForm
 
             If count = 1 Then
                 If isAdminCount = 1 Then
-                    MessageBox.Show("SELAMAT DATANG ADMIN" & username)
+                    MessageBox.Show("Selamat Datang ADMIN" & username)
                     AdminDash.Show()
                     Me.Hide()
                 Else
-                    MessageBox.Show("SELAMAT DATANG " & username)
+                    MessageBox.Show("Selamat Datang " & username)
                     Main.Show()
                     Me.Hide()
                 End If
