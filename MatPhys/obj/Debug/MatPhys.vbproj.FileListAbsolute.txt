@@ -32,3 +32,21 @@ E:\Git\NEW\MatPhys\bin\Debug\MatPhys.exe
 E:\Git\NEW\MatPhys\bin\Debug\MatPhys.pdb
 E:\Git\NEW\MatPhys\bin\Debug\MatPhys.xml
 E:\Git\NEW\MatPhys\obj\Debug\MatPhys.vbproj.CopyComplete
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\bin\Debug\MatPhys.exe
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\bin\Debug\MatPhys.pdb
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\bin\Debug\MatPhys.xml
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.vbprojAssemblyReference.cache
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.AboutBox.resources
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.AdminDash.resources
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.SignUp.resources
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.Main.resources
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.LoginForm.resources
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.Resources.resources
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.SplashScreen.resources
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.UserDetails.resources
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.vbproj.GenerateResource.cache
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.vbproj.CoreCompileInputs.cache
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.vbproj.CopyComplete
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.exe
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.xml
+D:\komsi sv\KOMSI SV\SMT 4\new visual\MatPhys\obj\Debug\MatPhys.pdb
