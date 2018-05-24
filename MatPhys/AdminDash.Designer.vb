@@ -73,7 +73,7 @@ Partial Class AdminDash
         'LogOutToolStripMenuItem
         '
         Me.LogOutToolStripMenuItem.Name = "LogOutToolStripMenuItem"
-        Me.LogOutToolStripMenuItem.Size = New System.Drawing.Size(117, 22)
+        Me.LogOutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.LogOutToolStripMenuItem.Text = "Log Out"
         '
         'TabControl1

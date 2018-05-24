@@ -150,4 +150,8 @@ Public Class AdminDash
 
     End Sub
 
+    Private Sub LogOutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LogOutToolStripMenuItem.Click
+        Me.Hide()
+        LoginForm.Show()
+    End Sub
 End Class

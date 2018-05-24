@@ -34,6 +34,8 @@ Public Class SignUp
             Perintah = New MySqlCommand(Query, MySqlConn)
             Reader = Perintah.ExecuteReader
             MessageBox.Show("Data Saved")
+            Me.Hide()
+            LoginForm.Show()
 
             MySqlConn.Close()
 

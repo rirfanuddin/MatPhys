@@ -15,7 +15,7 @@ Public Class LoginForm
         Me.Hide()
     End Sub
 
-    Private Sub login_btn_Click(sender As Object, e As EventArgs) Handles login_btn.Click
+    Public Sub login_btn_Click(sender As Object, e As EventArgs) Handles login_btn.Click
         MySqlConn = New MySqlConnection
         MySqlConn.ConnectionString = "server=localhost;user=root;password=root;database=matphys"
         Dim Reader, isAdminReader As MySqlDataReader
