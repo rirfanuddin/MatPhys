@@ -22,7 +22,7 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-<<<<<<< HEAD
+
         Dim TreeNode23 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bangun Ruang")
         Dim TreeNode24 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Satuan Ukuran")
         Dim TreeNode25 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode23, TreeNode24})
@@ -45,7 +45,7 @@ Partial Class Main
         Dim TreeNode42 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node18")
         Dim TreeNode43 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode40, TreeNode41, TreeNode42})
         Dim TreeNode44 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMA", New System.Windows.Forms.TreeNode() {TreeNode39, TreeNode43})
-=======
+
         Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bangun Ruang")
         Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Panjang")
         Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Luas")
@@ -68,7 +68,7 @@ Partial Class Main
         Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Dimensi Tiga")
         Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode19, TreeNode20})
         Dim TreeNode22 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMA", New System.Windows.Forms.TreeNode() {TreeNode18, TreeNode21})
->>>>>>> c1f92ea8cbf59429cf00fc7c6c369f2a7af30662
+
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.AccountToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UserDetailsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -101,7 +101,7 @@ Partial Class Main
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-<<<<<<< HEAD
+
         Me.Label17 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.TextBoxInputAPSegitiga = New System.Windows.Forms.TextBox()
@@ -135,8 +135,7 @@ Partial Class Main
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-=======
->>>>>>> c1f92ea8cbf59429cf00fc7c6c369f2a7af30662
+
         Me.MenuStrip1.SuspendLayout()
         Me.rumusSdBangunRuang.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -186,7 +185,7 @@ Partial Class Main
         '
         Me.TreeView1.Location = New System.Drawing.Point(12, 27)
         Me.TreeView1.Name = "TreeView1"
-<<<<<<< HEAD
+
         TreeNode23.Name = "bangun_ruang"
         TreeNode23.Text = "Bangun Ruang"
         TreeNode24.Name = "satuan_ukuran"
@@ -232,7 +231,7 @@ Partial Class Main
         TreeNode44.Name = "sma_root"
         TreeNode44.Text = "SMA"
         Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode26, TreeNode35, TreeNode44})
-=======
+
         TreeNode1.Name = "bangun_ruang"
         TreeNode1.Text = "Bangun Ruang"
         TreeNode2.Name = "ukuran_panjang"
@@ -278,7 +277,7 @@ Partial Class Main
         TreeNode22.Name = "sma_root"
         TreeNode22.Text = "SMA"
         Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode8, TreeNode15, TreeNode22})
->>>>>>> c1f92ea8cbf59429cf00fc7c6c369f2a7af30662
+
         Me.TreeView1.Size = New System.Drawing.Size(169, 349)
         Me.TreeView1.TabIndex = 1
         '
@@ -542,7 +541,7 @@ Partial Class Main
         Me.Panel1.Size = New System.Drawing.Size(615, 349)
         Me.Panel1.TabIndex = 4
         '
-<<<<<<< HEAD
+
         'Label17
         '
         Me.Label17.AutoSize = True
@@ -843,8 +842,7 @@ Partial Class Main
         Me.PictureBox5.TabIndex = 19
         Me.PictureBox5.TabStop = False
         '
-=======
->>>>>>> c1f92ea8cbf59429cf00fc7c6c369f2a7af30662
+
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
