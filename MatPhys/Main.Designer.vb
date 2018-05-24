@@ -22,6 +22,7 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Dim TreeNode23 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bangun Ruang")
         Dim TreeNode24 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Satuan Ukuran")
         Dim TreeNode25 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode23, TreeNode24})
@@ -44,6 +45,30 @@ Partial Class Main
         Dim TreeNode42 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Node18")
         Dim TreeNode43 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode40, TreeNode41, TreeNode42})
         Dim TreeNode44 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMA", New System.Windows.Forms.TreeNode() {TreeNode39, TreeNode43})
+=======
+        Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bangun Ruang")
+        Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Panjang")
+        Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Luas")
+        Dim TreeNode4 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Berat")
+        Dim TreeNode5 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Ukuran Volume")
+        Dim TreeNode6 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Satuan Ukuran", New System.Windows.Forms.TreeNode() {TreeNode2, TreeNode3, TreeNode4, TreeNode5})
+        Dim TreeNode7 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode1, TreeNode6})
+        Dim TreeNode8 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SD", New System.Windows.Forms.TreeNode() {TreeNode7})
+        Dim TreeNode9 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Besaran dan Pengukuran")
+        Dim TreeNode10 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Unsur Senyawa dan Campuran")
+        Dim TreeNode11 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode9, TreeNode10})
+        Dim TreeNode12 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bilangan Pecahan")
+        Dim TreeNode13 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Aljabar")
+        Dim TreeNode14 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode12, TreeNode13})
+        Dim TreeNode15 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMP", New System.Windows.Forms.TreeNode() {TreeNode11, TreeNode14})
+        Dim TreeNode16 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Gerak Lurus")
+        Dim TreeNode17 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Termodinamika")
+        Dim TreeNode18 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Fisika", New System.Windows.Forms.TreeNode() {TreeNode16, TreeNode17})
+        Dim TreeNode19 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Sistem Persamaan Linier")
+        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Dimensi Tiga")
+        Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Matematika", New System.Windows.Forms.TreeNode() {TreeNode19, TreeNode20})
+        Dim TreeNode22 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("SMA", New System.Windows.Forms.TreeNode() {TreeNode18, TreeNode21})
+>>>>>>> c1f92ea8cbf59429cf00fc7c6c369f2a7af30662
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.AccountToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UserDetailsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -76,6 +101,7 @@ Partial Class Main
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+<<<<<<< HEAD
         Me.Label17 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.TextBoxInputAPSegitiga = New System.Windows.Forms.TextBox()
@@ -109,6 +135,8 @@ Partial Class Main
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+=======
+>>>>>>> c1f92ea8cbf59429cf00fc7c6c369f2a7af30662
         Me.MenuStrip1.SuspendLayout()
         Me.rumusSdBangunRuang.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -158,6 +186,7 @@ Partial Class Main
         '
         Me.TreeView1.Location = New System.Drawing.Point(12, 27)
         Me.TreeView1.Name = "TreeView1"
+<<<<<<< HEAD
         TreeNode23.Name = "bangun_ruang"
         TreeNode23.Text = "Bangun Ruang"
         TreeNode24.Name = "satuan_ukuran"
@@ -203,6 +232,53 @@ Partial Class Main
         TreeNode44.Name = "sma_root"
         TreeNode44.Text = "SMA"
         Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode26, TreeNode35, TreeNode44})
+=======
+        TreeNode1.Name = "bangun_ruang"
+        TreeNode1.Text = "Bangun Ruang"
+        TreeNode2.Name = "ukuran_panjang"
+        TreeNode2.Text = "Ukuran Panjang"
+        TreeNode3.Name = "ukuran_luas"
+        TreeNode3.Text = "Ukuran Luas"
+        TreeNode4.Name = "ukuran_berat"
+        TreeNode4.Text = "Ukuran Berat"
+        TreeNode5.Name = "ukuran_volume"
+        TreeNode5.Text = "Ukuran Volume"
+        TreeNode6.Name = "satuan_ukuran"
+        TreeNode6.Text = "Satuan Ukuran"
+        TreeNode7.Name = "math_sd"
+        TreeNode7.Text = "Matematika"
+        TreeNode8.Name = "sd_root"
+        TreeNode8.Text = "SD"
+        TreeNode9.Name = "besaranSMP"
+        TreeNode9.Text = "Besaran dan Pengukuran"
+        TreeNode10.Name = "senyawaSMP"
+        TreeNode10.Text = "Unsur Senyawa dan Campuran"
+        TreeNode11.Name = "phys_smp"
+        TreeNode11.Text = "Fisika"
+        TreeNode12.Name = "pecahanSMP"
+        TreeNode12.Text = "Bilangan Pecahan"
+        TreeNode13.Name = "aljabarSMP"
+        TreeNode13.Text = "Aljabar"
+        TreeNode14.Name = "math_smp"
+        TreeNode14.Text = "Matematika"
+        TreeNode15.Name = "smp_root"
+        TreeNode15.Text = "SMP"
+        TreeNode16.Name = "glSMA"
+        TreeNode16.Text = "Gerak Lurus"
+        TreeNode17.Name = "termoSMA"
+        TreeNode17.Text = "Termodinamika"
+        TreeNode18.Name = "phys_sma"
+        TreeNode18.Text = "Fisika"
+        TreeNode19.Name = "splSMA"
+        TreeNode19.Text = "Sistem Persamaan Linier"
+        TreeNode20.Name = "3dSMA"
+        TreeNode20.Text = "Dimensi Tiga"
+        TreeNode21.Name = "phys_sma"
+        TreeNode21.Text = "Matematika"
+        TreeNode22.Name = "sma_root"
+        TreeNode22.Text = "SMA"
+        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode8, TreeNode15, TreeNode22})
+>>>>>>> c1f92ea8cbf59429cf00fc7c6c369f2a7af30662
         Me.TreeView1.Size = New System.Drawing.Size(169, 349)
         Me.TreeView1.TabIndex = 1
         '
@@ -466,6 +542,7 @@ Partial Class Main
         Me.Panel1.Size = New System.Drawing.Size(615, 349)
         Me.Panel1.TabIndex = 4
         '
+<<<<<<< HEAD
         'Label17
         '
         Me.Label17.AutoSize = True
@@ -766,6 +843,8 @@ Partial Class Main
         Me.PictureBox5.TabIndex = 19
         Me.PictureBox5.TabStop = False
         '
+=======
+>>>>>>> c1f92ea8cbf59429cf00fc7c6c369f2a7af30662
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
