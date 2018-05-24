@@ -32,3 +32,4 @@ E:\Git\NEW\MatPhys\bin\Debug\MatPhys.exe
 E:\Git\NEW\MatPhys\bin\Debug\MatPhys.pdb
 E:\Git\NEW\MatPhys\bin\Debug\MatPhys.xml
 E:\Git\NEW\MatPhys\obj\Debug\MatPhys.vbproj.CopyComplete
+E:\Git\NEW\MatPhys\obj\Debug\MatPhys.UserDetails.resources
